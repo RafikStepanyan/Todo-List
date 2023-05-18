@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url('/public/bg4.jpg');
+    background-size: cover;
+}
+
+.main {
+    margin: 20px 10px;
+    width: 500px;
+    border: 5px solid #151A30;
+    border-radius: 10px;
+    background: #151A30;
+    padding: 20px;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.add>input,
+button {
+    width: 200px;
+    height: 30px;
+    border: 3px solid #7C21FC;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: rgba(255, 255, 255, 0);
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    border: 3px solid #7C21FC;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: rgba(255, 255, 255, 0);
+}
+
+select option {
+    background: #151A30;
+}
+
+.add input::placeholder {
+    color: whitesmoke;
+}
+
+.add>button {
+    background: #7C21FC;
+}
+
+.add>button:hover {
+    background: #3f228800;
+    transition: 0.5s;
+}
+
+.task div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 10px;
+}
+
+.task button {
+    width: 30px;
+    font-size: 20px;
+    background: #7C21FC;
+    border-radius: 50px;
+    margin-left: auto;
+}
+
+.task button:hover {
+    background: #7c21fc00;
+    transition: 0.5s;
+}
+
+.hover:hover {
+    color: #7C21FC;
+    transition: 0.5s;
+}
